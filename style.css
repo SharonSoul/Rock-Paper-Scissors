@@ -4,6 +4,14 @@ body {
     text-align: center;
 }
 
+h1 {
+    border-bottom: 1px;
+    padding-bottom: 1%;
+    border-bottom: solid;
+    border-color: white;
+    margin: 0% 40%;
+}
+
 #rock, #paper, #scissors {
     font-size: 500%;
     border: solid;
