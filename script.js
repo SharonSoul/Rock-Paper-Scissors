@@ -1,7 +1,9 @@
 let newPara = document.createElement('p')
 let scorePara = document.createElement('p')
-document.querySelector('#cont').appendChild(newPara)
-document.querySelector('#cont').appendChild(scorePara)
+
+
+document.querySelector('body').appendChild(newPara)
+document.querySelector('body').appendChild(scorePara)
 let scoreKeeper = {
   win: 0,
   loss: 0,

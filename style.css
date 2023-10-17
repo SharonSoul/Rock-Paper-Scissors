@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    text-align: center;
+}
+
+#rock, #paper, #scissors {
+    font-size: 500%;
+    border: solid;
+    border-radius: 50%;
+    padding: 3%;
+    border-color: white;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#rock:active, #paper:active, #scissors:active {
+    background-color: rgb(23, 21, 21);
+}
+
+#cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: white;
+    padding: 2% 4%;
+}
+button:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(73, 64, 64);
+    color: white;
+    
+}
